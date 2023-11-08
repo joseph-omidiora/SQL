@@ -1,0 +1,10 @@
+To create a user using the terminal, enter the following command 
+    ~ mysql 
+    ~ CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'password';
+
+To grant all privileges, execute the following command
+    ~ GRANT ALL PRIVILEGES ON * . * TO 'new_user'@'localhost'
+For changes to take effect immediately flush these priviledes 
+    ~FLUSH PRIVILEGES
+
+
