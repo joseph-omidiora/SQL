@@ -71,7 +71,7 @@ SELECT
 FROM
     car
 
---trim the entries
+--trim the entries to remove whitespaces
 
 UPDATE
     car
